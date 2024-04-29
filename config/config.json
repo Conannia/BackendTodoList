@@ -1,9 +1,6 @@
 {
-  "development": {
-    "username": "niaf",
-    "password": "new_password",
-    "database": "todolist",
-    "host": "127.0.0.1",
+  "production": {
+    "use_env_variable": "mysql://root:vFplWDmuBvefKrjtihseeWurvtOGPTal@mysql.railway.internal:3306/railway",
     "dialect": "mysql"
   }
 }
